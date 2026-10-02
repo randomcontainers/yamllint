@@ -12,8 +12,6 @@ Check every `.yaml` and `.yml` file in the current directory and below:
 docker run --rm --user "$(id -u):$(id -g)" -v "$PWD:/work" ghcr.io/randomcontainers/yamllint .
 ```
 
-The same images can also be pulled as `randomcontainers.com/yamllint`.
-
 yamllint exits with 1 when it finds an error. Warnings are printed but leave the exit code at 0 unless you pass `--strict`, which makes it exit with 2. `-f parsable` prints one `file:line:column: [level] message (rule)` line per problem:
 
 ```sh
