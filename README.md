@@ -56,7 +56,7 @@ The images have no language locales, so the `key-ordering` rule always sorts key
 
 ## Default or slim
 
-yamllint's default image adds no other tools, so `latest` and `slim` are the same image, with the contents listed above. Use `latest` to run it and the `slim` tags as a base for your own image.
+yamllint's default image adds no other tools, so `latest` and `slim` are the same image, with the contents listed above. Use `latest` to run it and the `slim` tags as a base for your own image. The combined image `ghcr.io/randomcontainers/check-jsonschema-yamllint` adds this build of yamllint to [check-jsonschema](https://github.com/randomcontainers/check-jsonschema).
 
 ## Tags
 
