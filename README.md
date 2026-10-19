@@ -147,7 +147,7 @@ yamllint is licensed under the [GNU General Public License, version 3 or later](
 
 PyYAML's extension module links a static build of libyaml (MIT). The PyYAML wheel includes only PyYAML's own license, so this repository adds libyaml's license file in [`licenses/`](licenses/), and the image has it in `/usr/local/share/randomcontainers/yamllint/licenses/PyYAML/bundled/libyaml/`. The `SOURCES` file there names the PyYAML source release and the libyaml source archive with their SHA-256.
 
-The files in this repository are available under the MIT license, see [LICENSE](LICENSE).
+The files in this repository are available under the MIT license, see [LICENSE](LICENSE), except the license texts in `licenses/`, which keep their own terms.
 
 ## Requesting a tool
 
